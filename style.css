@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+*::selection{
+    background: #000;
+    color: yellow;
+}
+.Tik_Tok_Tie_container{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.board{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.sizemain{
+    height: auto;
+    width: auto;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.sizeele{
+    height: 15vh;
+    width: 8vw;
+    background-color: rgb(105, 98, 98);
+}
+.pieces{
+    height: 15vh;
+    width: 8vw;
+}
+.black{
+    background: linear-gradient(to bottom right,rgb(56, 93, 124) ,rgb(46, 63, 98),rgb(125, 67, 77));
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(1px 1px 5px rgb(0, 0, 0));
+}
+.blue{
+    background: linear-gradient(to bottom left,rgb(56, 93, 124) ,rgb(175, 175, 175),rgb(125, 67, 77));
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle i{
+    font-size: 5rem;
+}
+.cross i{
+    font-size: 5rem;
+}
+.fa-circle{
+    color: antiquewhite;
+    filter: drop-shadow(1px 1px 5px rgb(82, 82, 254));
+}
+.fa-x{
+    color: #020202;
+    filter: drop-shadow(1px 1px 5px rgb(240, 240, 241));
+}
