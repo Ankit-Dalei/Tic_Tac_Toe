@@ -1,68 +1,65 @@
-Tic-Tac-Toe Game
-Welcome to the Tic-Tac-Toe Game – a classic 3x3 grid game where two players (X and O) take turns marking the spaces in the grid. The goal? Get three of your marks in a row, column, or diagonal before your opponent does!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Project</title>
+</head>
+<body>
+    <header>
+        <h1>Tic-Tac-Toe</h1>
+        <p>A fun and interactive two-player game built with JavaScript, HTML, and CSS.</p>
+    </header>
 
-This project is built with:
+    <section>
+        <h2>Project Overview</h2>
+        <p>This project is a digital version of the classic Tic-Tac-Toe game where players take turns marking X and O on a 3x3 grid. The first player to align three of their marks horizontally, vertically, or diagonally wins the game.</p>
+    </section>
 
-HTML for structure
-CSS for styling
-JavaScript for interactivity
+    <section>
+        <h2>Features</h2>
+        <ul>
+            <li>Two-player mode</li>
+            <li>Interactive 3x3 grid</li>
+            <li>Winning condition check (horizontal, vertical, diagonal)</li>
+            <li>Responsive design (works on both desktop and mobile)</li>
+        </ul>
+    </section>
 
-🎮 Features
-Two-player mode: Play with a friend in real-time!
-Game Reset: Easily reset the game and start fresh after every round.
-Responsive design: Enjoy the game on any device – desktop, tablet, or phone.
-Simple UI: Clean, minimalistic design focused on user experience.
-📸 Screenshots
+    <section>
+        <h2>Technologies Used</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
 
-🚀 How to Play
-Open the Game: Open the index.html file in your browser to play.
-Choose your mark: One player will be X and the other O.
-Take turns: Click on the empty squares to place your mark.
-Win the game: The first player to get three marks in a row (horizontal, vertical, or diagonal) wins the game.
-Reset the Game: Automatic Reset and start a new game.
+    <section>
+        <h2>How to Play</h2>
+        <ol>
+            <li>Player 1 selects a cell to place their 'X'.</li>
+            <li>Player 2 selects a cell to place their 'O'.</li>
+            <li>Continue alternating turns until one player wins or the game ends in a draw.</li>
+        </ol>
+    </section>
 
-⚙️ How It Works
+    <section>
+        <h2>How to Run</h2>
+        <p>Clone this repository to your local machine and open the <strong>index.html</strong> file in a web browser to play the game.</p>
+    </section>
 
-HTML:
-Defines the structure of the game grid and buttons.
-Includes a title, game board, and a reset button.
+    <section>
+        <h2>Future Improvements</h2>
+        <ul>
+            <li>Add an AI opponent</li>
+            <li>Implement a score tracker</li>
+            <li>Design a more polished UI</li>
+        </ul>
+    </section>
 
-CSS:
-Ensures the game looks great on all devices, with responsive grid and button styles.
-Focuses on simple but elegant visual design.
-
-JavaScript:
-Handles the game logic, including detecting wins, switching turns, and resetting the board.
-Tracks the state of the game and displays messages when a player wins or the game ends in a draw.
-
-💻 How to Run Locally
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/tic-tac-toe.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd tic-tac-toe
-Open the index.html file in your browser to start playing!
-
-🔧 Built With
-HTML5 - Markup language for structuring the content.
-CSS3 - Styling language to make the game visually appealing.
-JavaScript - Adds interactivity, game logic, and dynamic updates.
-🧑‍🤝‍🧑 Contributing
-We welcome contributions! Whether it's fixing a bug, adding a feature, or improving the design, feel free to fork the repo, make your changes, and submit a pull request.
-
-How to contribute:
-Fork this repository.
-Create a new branch (git checkout -b feature/your-feature).
-Make your changes and commit them (git commit -am 'Add new feature').
-Push to your branch (git push origin feature/your-feature).
-Create a pull request.
-📜 License
-This project is licensed under the MIT License – see the LICENSE file for details.
-
-🚀 Try It Now!
-Play the Game – Don't forget to share your score!
+    <footer>
+        <p>Project by <strong>Ankit</strong></p>
+    </footer>
+</body>
+</html>
